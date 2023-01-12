@@ -7,6 +7,7 @@ specifiers:
   alpinejs: ^3.0.0
   astro: ^1.9.0
   axios: ^1.2.2
+  bootstrap-icons: ^1.10.3
   tailwindcss: ^3.0.24
 
 dependencies:
@@ -16,6 +17,7 @@ dependencies:
   alpinejs: 3.10.5
   astro: 1.9.1
   axios: 1.2.2
+  bootstrap-icons: 1.10.3
   tailwindcss: 3.2.4
 
 packages:
@@ -883,6 +885,10 @@ packages:
 
   /boolean/3.2.0:
     resolution: {integrity: sha512-d0II/GO9uf9lfUHH2BQsjxzRJZBdsjgsBiW4BvhWk/3qoKwQFjIDVN19PfX8F2D/r9PCMTtLWjYVCFrpeYUzsw==}
+    dev: false
+
+  /bootstrap-icons/1.10.3:
+    resolution: {integrity: sha512-7Qvj0j0idEm/DdX9Q0CpxAnJYqBCFCiUI6qzSPYfERMcokVuV9Mdm/AJiVZI8+Gawe4h/l6zFcOzvV7oXCZArw==}
     dev: false
 
   /boxen/6.2.1:
