@@ -131,4 +131,24 @@ import Layout from "../layouts/Layout.astro";
       </svg>
     </a>
   </section>
+  <section id="contactSect" class="flex flex-col items-center justify-center h-screen bg-gray">
+		<h1 class="mb-4 text-5xl font-bold text-center text-white">You wan't contact me?</h1>
+    <form class="flex flex-col w-4/5" name="contacteMe" netlify>
+      <input
+        type="text"
+        name="name"
+        id="name"
+				class="p-4 mb-4 outline-none"
+        placeholder="Your name or Company name"
+      />
+      <textarea
+        name="message"
+        id="msg"
+				class="p-4 mb-2 outline-none resize-none"
+        cols="30"
+        rows="10"
+        placeholder="Send me a message"></textarea>
+				<input class="p-4 font-bold bg-white" type="submit" value="Submit">
+    </form>
+  </section>
 </Layout>
