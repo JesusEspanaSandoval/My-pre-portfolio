@@ -1,8 +1,7 @@
 {
-  "name": "@example/basics",
+  "name": "pre-portfolio-jsandoval",
   "type": "module",
-  "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
